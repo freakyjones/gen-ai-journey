@@ -1,1 +1,9 @@
-docs/
+# Ignore built docs output (CI builds this)
+docs/index.html
+docs/404.html
+docs/projects/
+docs/notes/
+docs/cv/
+docs/_next/
+docs/favicon.ico
+docs/.nojekyll
