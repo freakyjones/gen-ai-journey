@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="font-sans min-h-screen max-w-3xl mx-auto p-8 space-y-8">
@@ -9,9 +11,9 @@ export default function Home() {
       </section>
 
       <section className="grid gap-3">
-        <a className="underline" href="/projects/">Projects</a>
-        <a className="underline" href="/notes/">Notes</a>
-        <a className="underline" href="/cv/">CV / Contact</a>
+        <Link className="underline" href="/projects">Projects</Link>
+        <Link className="underline" href="/notes">Notes</Link>
+        <Link className="underline" href="/cv">CV / Contact</Link>
       </section>
     </main>
   );
